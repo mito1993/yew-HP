@@ -17,7 +17,7 @@ export default function Staff() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-24 items-center bg-white/[0.02] border border-white/5">
           <div className="relative aspect-[4/5] overflow-hidden">
             <img
-              src={ceoData.image}
+              src="/images/yew-HP_Representatives.png"
               alt={ceoData.name}
               className="w-full h-full object-cover object-top"
             />

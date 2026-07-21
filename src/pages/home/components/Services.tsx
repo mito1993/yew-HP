@@ -7,7 +7,7 @@ const services = [
     description:
       "都心の主要駅や繁華街に設置された大型ポスターフレーム。通行人の視線を確実に捉える高インパクトなビジュアルで、ブランドメッセージを強力に発信。ロケーション選定からクリエイティブ制作まで一貫してサポートします。",
     image:
-      "https://readdy.ai/api/search-image?query=Large%20format%20urban%20billboard%20poster%20on%20Tokyo%20city%20street%20wall%2C%20moody%20cinematic%20lighting%2C%20dramatic%20composition%2C%20modern%20cityscape%20at%20dusk%2C%20premium%20editorial%20advertising%20photography%2C%20dark%20tones%20with%20minimal%20aesthetic%2C%20rain-slicked%20pavement%20reflecting%20city%20lights&width=1200&height=1500&seq=service-poster-01&orientation=portrait",
+      "/images/yew-HP_01service_poster.png",
     features: ["主要駅・繁華街ロケーション", "大型高解像度フォーマット", "クリエイティブ制作支援"],
   },
   {
@@ -18,7 +18,7 @@ const services = [
     description:
       "電車・バス・タクシーなど、都市交通のあらゆる接点をジャック。通勤・通学の動線上で繰り返し露出し、ブランド認知を加速度的に拡大。路線分析から媒体選定、施工までワンストップで提供します。",
     image:
-      "https://readdy.ai/api/search-image?query=Train%20wrapped%20in%20advertising%20vinyl%20parked%20at%20urban%20station%20platform%2C%20dramatic%20cinematic%20lighting%2C%20modern%20transportation%20aesthetic%2C%20Tokyo%20metro%20style%2C%20moody%20dark%20atmosphere%20with%20neon%20reflections%2C%20premium%20editorial%20photography%2C%20industrial%20chic%20composition&width=1200&height=1500&seq=service-jack-01&orientation=portrait",
+      "/images/yew-HP_02service_jack.png",
     features: ["電車・バス・タクシー展開", "路線別リーチ分析", "施工・メンテナンス完備"],
   },
   {
@@ -29,7 +29,7 @@ const services = [
     description:
       "渋谷スクランブル交差点、新宿駅前など都心のランドマークに設置された大型デジタルサイネージ。ダイナミックな映像表現とリアルタイム配信で、圧倒的な存在感を実現。データドリブンな効果測定も標準装備。",
     image:
-      "https://readdy.ai/api/search-image?query=Giant%20LED%20digital%20billboard%20screen%20in%20Shibuya%20crossing%20Tokyo%20at%20night%2C%20dramatic%20cinematic%20lighting%2C%20colorful%20vibrant%20display%2C%20modern%20urban%20landscape%2C%20premium%20editorial%20photography%2C%20dark%20moody%20atmosphere%20with%20futuristic%20energy%2C%20wide%20angle%20cityscape&width=1200&height=1500&seq=service-digital-01&orientation=portrait",
+      "/images/yew-HP_03service_digital.png",
     features: ["大型LEDサイネージ", "リアルタイム配信対応", "効果測定レポート"],
   },
 ];

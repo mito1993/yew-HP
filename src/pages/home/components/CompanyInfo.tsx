@@ -50,7 +50,7 @@ export default function CompanyInfo() {
               <div className="aspect-[16/9] w-full overflow-hidden border border-white/10">
                 <iframe
                   title="YEW GALLERY Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7676796316366!2d139.7093!3d35.6707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQwJzE0LjUiTiAxMznCsDQyJzMzLjUiRQ!5e0!3m2!1sen!2sjp!4v1700000000000!5m2!1sen!2sjp"
+                  src="https://maps.google.com/maps?q=東京都渋谷区西原&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   className="w-full h-full filter grayscale contrast-125"
                   style={{ border: 0 }}
                   allowFullScreen

@@ -54,7 +54,7 @@ export default function Navbar() {
             className="flex items-center gap-3 group cursor-pointer"
           >
             <img
-              src="https://storage.readdy-site.link/project_files/ae0880fa-5277-4842-b018-71fc90640195/f5856c86-7849-4bd3-8fd3-6474516b76ac_compressed_yew_logo_white.webp"
+              src="/images/yew_logo_white.png"
               alt="YEW"
               className="h-6 md:h-8 w-auto"
             />

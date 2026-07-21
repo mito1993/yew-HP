@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="w-full h-full animate-slow-zoom">
           <img
-            src="https://storage.readdy-site.link/project_files/ae0880fa-5277-4842-b018-71fc90640195/7026cab9-7504-4329-86c6-873cb91e863b_compressed_ChatGPT-Image-2026621-19_22_29.webp"
+            src="/images/yew-HP_FV.png"
             alt="YEW BONSAI Gallery"
             className="w-full h-full object-cover object-center"
           />
@@ -42,7 +42,7 @@ export default function Hero() {
 
         <h1 className="mb-4 flex justify-center">
           <img
-            src="https://storage.readdy-site.link/project_files/ae0880fa-5277-4842-b018-71fc90640195/f5856c86-7849-4bd3-8fd3-6474516b76ac_compressed_yew_logo_white.webp"
+            src="/images/yew_logo_white.png"
             alt="YEW"
             className="h-16 md:h-24 lg:h-32 w-auto"
           />
