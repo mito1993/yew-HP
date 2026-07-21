@@ -16,20 +16,6 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/90"></div>
       </div>
 
-      {/* Vertical text left side */}
-      <div className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 z-10">
-        <p className="text-vertical text-white/50 font-oswald tracking-widest2 text-xs">
-          — JAPANESE TRADITIONAL BONSAI —
-        </p>
-      </div>
-
-      {/* Vertical text right side */}
-      <div className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 z-10">
-        <p className="text-vertical text-white/50 font-mincho text-xs tracking-widest">
-          伝統は革新の連続である
-        </p>
-      </div>
-
       {/* Content */}
       <div className="relative z-10 w-full text-center px-6 opacity-0 animate-fade-up" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
         <div className="inline-flex items-center gap-4 mb-8">
