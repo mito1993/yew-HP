@@ -3,6 +3,7 @@ import Footer from "@/components/feature/Footer";
 import Hero from "@/pages/home/components/Hero";
 import About from "@/pages/home/components/About";
 import Services from "@/pages/home/components/Services";
+import Members from "@/pages/home/components/Members";
 import CompanyInfo from "@/pages/home/components/CompanyInfo";
 import Contact from "@/pages/home/components/Contact";
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <Members />
         <CompanyInfo />
         <Contact />
       </main>

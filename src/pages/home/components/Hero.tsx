@@ -60,14 +60,14 @@ export default function Hero() {
             href="#about"
             className="group inline-flex items-center gap-3 px-8 py-4 border border-white/70 text-white font-oswald tracking-widest text-xs hover:bg-white hover:text-black transition-all duration-500 cursor-pointer whitespace-nowrap"
           >
-            EXPLORE OUR WORLD
+            OUR PHILOSOPHY
             <i className="ri-arrow-right-line w-4 h-4 flex items-center justify-center group-hover:translate-x-1 transition-transform"></i>
           </a>
           <a
             href="#services"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-white text-black font-oswald tracking-widest text-xs hover:bg-white/80 transition-all duration-500 cursor-pointer whitespace-nowrap"
           >
-            VIEW GALLERY
+            OUR SERVICES
             <i className="ri-arrow-right-up-line w-4 h-4 flex items-center justify-center"></i>
           </a>
         </div>

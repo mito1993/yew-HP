@@ -26,26 +26,16 @@ export default function About() {
             街中に気になる<span className="text-accent-500">違和感</span>を創出する。
           </h3>
           <p className="font-mincho text-white/70 text-base md:text-lg leading-loose mb-6">
-            日本の伝統的な盆栽を世界へ広めることを使命に、2015年に設立された YEW（2016年に株式会社松葉屋を設立）。
+            情報を届けるだけでは、人の心は動かない。<br />距離を縮めるのは、記憶に残ることだけ。
           </p>
           <p className="font-mincho text-white/70 text-base md:text-lg leading-loose mb-12">
-            単に伝統を守るのではなく、「おもてなし」と「利他の精神」に根ざす盆栽の本質を敬いながら、ストリートカルチャー、ファッション、アートとのコラボレーションを通じて革新を追求する。私たちは日々進化し、盆栽という永遠の美を通して「日本のかっこよさ」を再定義し、新たな価値を創造しています。
+            広告は、見られなければ存在しない。そして人は、見慣れた景色を見ていない。
+            <br />電柱、階段下、通勤の途中、交差点の片隅。毎日通るその場所に、ほんの少しのズレを置く。すると人は、無意識に視線を止める。
+            <br />説明されなくても、気づけば覚えている。これは偶然ではなく設計できる現象だ。
+            <br/>yewは、その「気になる」の正体を組み立て、街という日常のメディアに、狙って違和感をつくる会社です。
+            <br />掲出して終わりではなく、記憶に残って初めて広告は機能する。
+            <br />私たちは、企業と消費者の間にある距離を、違和感という設計によって縮めていきます。
           </p>
-
-          <div className="grid grid-cols-3 gap-8 pt-10 border-t border-white/10 max-w-md mx-auto">
-            <div>
-              <p className="font-oswald text-white text-3xl md:text-4xl font-bold mb-1">10+</p>
-              <p className="font-oswald text-white/50 text-xs tracking-widest">YEARS OF HERITAGE</p>
-            </div>
-            <div>
-              <p className="font-oswald text-white text-3xl md:text-4xl font-bold mb-1">50+</p>
-              <p className="font-oswald text-white/50 text-xs tracking-widest">BRAND COLLABS</p>
-            </div>
-            <div>
-              <p className="font-oswald text-white text-3xl md:text-4xl font-bold mb-1">∞</p>
-              <p className="font-oswald text-white/50 text-xs tracking-widest">POSSIBILITIES</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

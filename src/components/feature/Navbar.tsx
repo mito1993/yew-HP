@@ -3,11 +3,17 @@ import { useEffect, useState, useRef } from "react";
 const mainLinks = [
   { label: "HOME", href: "#top" },
   { label: "ABOUT", href: "#about" },
-  { label: "SERVICES", href: "#services", hasDropdown: true, children: [
-    { label: "POSTER", href: "#poster" },
-    { label: "JACK", href: "#jack" },
-    { label: "DIGITAL", href: "#digital" },
-  ]},
+  {
+    label: "SERVICES",
+    href: "#services",
+    hasDropdown: true,
+    children: [
+      { label: "POSTER", href: "#poster" },
+      { label: "JACK", href: "#jack" },
+      { label: "DIGITAL", href: "#digital" },
+    ],
+  },
+  { label: "MEMBERS", href: "#members" },
   { label: "COMPANY", href: "#company" },
   { label: "CONTACT", href: "#contact" },
 ];
@@ -75,7 +81,11 @@ export default function Navbar() {
                     className="font-oswald text-xs tracking-widest text-white/80 hover:text-white transition-colors cursor-pointer whitespace-nowrap flex items-center gap-1"
                   >
                     {link.label}
-                    <i className={`ri-arrow-down-s-line w-4 h-4 flex items-center justify-center transition-transform duration-300 ${dropdownOpen ? "rotate-180" : ""}`}></i>
+                    <i
+                      className={`ri-arrow-down-s-line w-4 h-4 flex items-center justify-center transition-transform duration-300 ${
+                        dropdownOpen ? "rotate-180" : ""
+                      }`}
+                    ></i>
                   </a>
                   <div
                     className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 py-3 px-5 bg-black/95 border border-white/10 backdrop-blur-md transition-all duration-300 ${
@@ -112,24 +122,6 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-3">
-              <a
-                href="https://www.instagram.com/tradmans_matsubaya.inc"
-                target="_blank"
-                rel="noopener"
-                aria-label="Instagram"
-                className="w-9 h-9 flex items-center justify-center border border-white/20 rounded-full text-white/80 hover:text-white hover:border-white transition-all cursor-pointer"
-              >
-                <i className="ri-instagram-line text-sm w-4 h-4 flex items-center justify-center"></i>
-              </a>
-              <a
-                href="https://www.youtube.com/@TRADMANS"
-                target="_blank"
-                rel="noopener"
-                aria-label="YouTube"
-                className="w-9 h-9 flex items-center justify-center border border-white/20 rounded-full text-white/80 hover:text-white hover:border-white transition-all cursor-pointer"
-              >
-                <i className="ri-youtube-line text-sm w-4 h-4 flex items-center justify-center"></i>
-              </a>
               <button
                 type="button"
                 className="w-9 h-9 flex items-center justify-center border border-white/20 rounded-full text-white/80 hover:text-white hover:border-white transition-all cursor-pointer whitespace-nowrap font-oswald text-[10px]"
@@ -193,26 +185,6 @@ export default function Navbar() {
                 )}
               </div>
             ))}
-            <div className="flex items-center gap-4 mt-8">
-              <a
-                href="https://www.instagram.com/tradmans_matsubaya.inc"
-                target="_blank"
-                rel="noopener"
-                aria-label="Instagram"
-                className="w-11 h-11 flex items-center justify-center border border-white/30 rounded-full text-white cursor-pointer"
-              >
-                <i className="ri-instagram-line text-lg w-5 h-5 flex items-center justify-center"></i>
-              </a>
-              <a
-                href="https://www.youtube.com/@TRADMANS"
-                target="_blank"
-                rel="noopener"
-                aria-label="YouTube"
-                className="w-11 h-11 flex items-center justify-center border border-white/30 rounded-full text-white cursor-pointer"
-              >
-                <i className="ri-youtube-line text-lg w-5 h-5 flex items-center justify-center"></i>
-              </a>
-            </div>
           </nav>
         </div>
       </div>

@@ -1,16 +1,45 @@
 export default function CompanyInfo() {
   const info = [
-    { label: "COMPANY NAME", value: "株式会社 松葉屋 (MATSUBAYA Co., Ltd.)" },
-    { label: "FOUNDED", value: "2015年 (Matsubaya Co., Ltd. 設立: 2016年)" },
-    { label: "REPRESENTATIVE", value: "小島 鉄平 / Teppei Kojima" },
-    { label: "HEAD OFFICE", value: "東京都渋谷区神宮前 YEW GALLERY" },
-    { label: "BUSINESS", value: "盆栽制作・販売 / リース事業 / ワークショップ / ブランドコラボレーション" },
-    { label: "PARTNERS", value: "NIKE, Dior, shu uemura, RIMOWA, PORTER 他" },
+    {
+      label: "COMPANY NAME",
+      subLabel: "会社名",
+      value: "yew株式会社（ユー）",
+    },
+    {
+      label: "HEAD OFFICE",
+      subLabel: "本社",
+      value: "東京都渋谷区元代々木町9-6",
+    },
+    {
+      label: "REPRESENTATIVE",
+      subLabel: "代表",
+      value: "CEO 司城 駿 / COO 安 夏慧竜",
+    },
+    {
+      label: "BUSINESS",
+      subLabel: "展開事業",
+      value: "屋外広告事業",
+    },
+    {
+      label: "CAPITAL",
+      subLabel: "資本金",
+      value: "1000万円（資本準備金含む）",
+    },
+    {
+      label: "ESTABLISHED",
+      subLabel: "設立",
+      value: "2026年 7月 1日",
+    },
+    {
+      label: "GROUP COMPANY",
+      subLabel: "グループ会社",
+      value: "株式会社Anyglo / 株式会社AgLab",
+    },
   ];
 
   return (
-    <section id="company" className="relative py-24 md:py-32 bg-[#050505]">
-      <div className="max-w-6xl mx-auto px-6 md:px-10">
+    <section id="company" className="relative py-24 md:py-32 bg-[#080808]">
+      <div className="max-w-4xl mx-auto px-6 md:px-10">
         <div className="text-center mb-16">
           <p className="font-oswald text-white/50 text-xs tracking-[0.4em] mb-4">
             — CORPORATE PROFILE —
@@ -20,44 +49,39 @@ export default function CompanyInfo() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="relative aspect-[4/5] overflow-hidden">
-            <img
-              src="https://public.readdy.ai/ai/img_res/edited_c56ef11f641380ffb2f52adb9e1e23b7_6a82ba7f.jpg"
-              alt="YEW Bonsai Art"
-              className="w-full h-full object-cover object-top"
-            />
-            <div className="absolute inset-0 border border-white/10"></div>
-            <div className="absolute top-4 left-4 w-16 h-16 border-t border-l border-white/40"></div>
-            <div className="absolute bottom-4 right-4 w-16 h-16 border-b border-r border-white/40"></div>
-          </div>
-
-          <div>
-            <dl className="space-y-6">
-              {info.map((row) => (
-                <div key={row.label} className="border-b border-white/10 pb-6">
-                  <dt className="font-oswald text-white/50 text-xs tracking-[0.3em] mb-2">
+        {/* 1カラムの会社概要リスト */}
+        <div>
+          <dl className="space-y-6">
+            {info.map((row) => (
+              <div key={row.label} className="border-b border-white/10 pb-6">
+                <dt className="flex items-center gap-2 mb-2">
+                  <span className="font-oswald text-white/50 text-xs tracking-[0.3em]">
                     {row.label}
-                  </dt>
-                  <dd className="font-mincho text-white text-sm md:text-base leading-relaxed">
-                    {row.value}
-                  </dd>
-                </div>
-              ))}
-            </dl>
-
-            <div className="mt-8">
-              <div className="aspect-[16/9] w-full overflow-hidden border border-white/10">
-                <iframe
-                  title="YEW GALLERY Location"
-                  src="https://maps.google.com/maps?q=東京都渋谷区西原&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                  className="w-full h-full filter grayscale contrast-125"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                  </span>
+                  <span className="text-white/20 text-xs">/</span>
+                  <span className="font-mincho text-white/40 text-xs tracking-wider">
+                    {row.subLabel}
+                  </span>
+                </dt>
+                <dd className="font-mincho text-white text-sm md:text-base leading-relaxed">
+                  {row.value}
+                </dd>
               </div>
+            ))}
+          </dl>
+
+          {/* Google マップ */}
+          <div className="mt-12">
+            <div className="aspect-[16/9] w-full overflow-hidden border border-white/10">
+              <iframe
+                title="yew株式会社 本社所在地"
+                src="https://maps.google.com/maps?q=東京都渋谷区元代々木町9-6&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                className="w-full h-full filter grayscale contrast-125"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

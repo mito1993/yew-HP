@@ -94,7 +94,7 @@ export default function Contact() {
             CONTACT
           </h2>
           <p className="font-mincho text-white/60 text-sm md:text-base max-w-2xl mx-auto">
-            リース、ワークショップ、コラボレーションのご相談など、お気軽にお問い合わせください。
+            ご相談など、お気軽にお問い合わせください。
           </p>
         </div>
 
@@ -106,7 +106,7 @@ export default function Contact() {
                 CONTACT INFORMATION
               </h3>
               <p className="font-mincho text-white/60 text-sm leading-relaxed">
-                お電話またはフォームより<br />お問い合わせいただけます。
+                メールまたはフォームより<br />お問い合わせいただけます。
               </p>
             </div>
 
@@ -118,9 +118,8 @@ export default function Contact() {
                 <div>
                   <p className="font-oswald text-white/50 text-xs tracking-widest mb-1">ADDRESS</p>
                   <p className="font-mincho text-white text-sm leading-relaxed">
-                    〒150-0001<br />
-                    東京都渋谷区神宮前<br />
-                    YEW GALLERY
+                    〒151-0062<br />
+                    東京都渋谷区元代々木町9-6
                   </p>
                 </div>
               </div>
@@ -132,44 +131,10 @@ export default function Contact() {
                 <div>
                   <p className="font-oswald text-white/50 text-xs tracking-widest mb-1">EMAIL</p>
                   <a href="mailto:info@tradmans.jp" className="font-mincho text-white text-sm hover:text-white/70 cursor-pointer">
-                    info@tradmans.jp
+                    info@yew-group.co.jp
                   </a>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-11 h-11 flex items-center justify-center border border-white/20 rounded-full flex-shrink-0">
-                  <i className="ri-time-line text-white text-lg w-5 h-5 flex items-center justify-center"></i>
-                </div>
-                <div>
-                  <p className="font-oswald text-white/50 text-xs tracking-widest mb-1">BUSINESS HOURS</p>
-                  <p className="font-mincho text-white text-sm">
-                    Mon - Fri&nbsp;&nbsp;10:00 - 19:00<br />
-                    Sat - Sun&nbsp;&nbsp;By appointment
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3 pt-4">
-              <a
-                href="https://www.instagram.com/tradmans_matsubaya.inc"
-                target="_blank"
-                rel="noopener"
-                aria-label="Instagram"
-                className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full text-white/70 hover:text-white hover:border-white transition-all cursor-pointer"
-              >
-                <i className="ri-instagram-line text-base w-4 h-4 flex items-center justify-center"></i>
-              </a>
-              <a
-                href="https://www.youtube.com/@TRADMANS"
-                target="_blank"
-                rel="noopener"
-                aria-label="YouTube"
-                className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full text-white/70 hover:text-white hover:border-white transition-all cursor-pointer"
-              >
-                <i className="ri-youtube-line text-base w-4 h-4 flex items-center justify-center"></i>
-              </a>
             </div>
           </div>
 
@@ -242,10 +207,8 @@ export default function Contact() {
                     className="w-full bg-transparent border-b border-white/20 focus:border-white text-white text-sm py-3 outline-none transition-colors pr-8"
                   >
                     <option value="" className="bg-black">選択してください</option>
-                    <option value="lease" className="bg-black">盆栽リースについて</option>
-                    <option value="workshop" className="bg-black">ワークショップについて</option>
+                    <option value="media" className="bg-black">屋外広告について</option>
                     <option value="collaboration" className="bg-black">コラボレーション</option>
-                    <option value="media" className="bg-black">取材・メディア</option>
                     <option value="other" className="bg-black">その他</option>
                   </select>
                 </div>

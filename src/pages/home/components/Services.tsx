@@ -3,34 +3,25 @@ const services = [
     id: "poster",
     number: "01",
     title: "POSTER",
-    subtitle: "ポスターメディア",
-    description:
-      "都心の主要駅や繁華街に設置された大型ポスターフレーム。通行人の視線を確実に捉える高インパクトなビジュアルで、ブランドメッセージを強力に発信。ロケーション選定からクリエイティブ制作まで一貫してサポートします。",
-    image:
-      "/images/yew-HP_01service_poster.png",
-    features: ["主要駅・繁華街ロケーション", "大型高解像度フォーマット", "クリエイティブ制作支援"],
+    subtitle: "見慣れた場所に、見たことのない一枚を。",
+    description: `電柱、壁面、階段下、店頭、通勤動線。広告のためではなく、生活のためにある場所にこそ、人の視線が無防備になる瞬間がある。その一瞬を狙う。街に溶け込みながら、ふと目を奪う一枚を、エリア選定からクリエイティブ、施工・運用まで一貫して設計する。小さな違和感は、正しく置かれれば大きな記憶になる。POSTERは、その最も原始的で、最も確実な手段です。`,
+    image: "/images/yew-HP_01service_poster.png",
   },
   {
     id: "jack",
     number: "02",
     title: "JACK",
-    subtitle: "交通広告メディア",
-    description:
-      "電車・バス・タクシーなど、都市交通のあらゆる接点をジャック。通勤・通学の動線上で繰り返し露出し、ブランド認知を加速度的に拡大。路線分析から媒体選定、施工までワンストップで提供します。",
-    image:
-      "/images/yew-HP_02service_jack.png",
-    features: ["電車・バス・タクシー展開", "路線別リーチ分析", "施工・メンテナンス完備"],
+    subtitle: "毎日の移動が、そのままブランド体験になる。",
+    description: `電車、バス、タクシー、駅構内。通勤・通学という、意識せず繰り返される動線の上に、ブランドを面として展開する。一枚の広告ではなく視界そのものをジャックすることで、認知は線から面へ、面から記憶へと変わっていく。路線分析による最適な媒体選定から、クリエイティブ設計、施工まで。yewは、都市の動線をブランドの舞台に変えます。`,
+    image: "/images/yew-HP_02service_jack.png",
   },
   {
     id: "digital",
     number: "03",
     title: "DIGITAL",
-    subtitle: "デジタルOOH",
-    description:
-      "渋谷スクランブル交差点、新宿駅前など都心のランドマークに設置された大型デジタルサイネージ。ダイナミックな映像表現とリアルタイム配信で、圧倒的な存在感を実現。データドリブンな効果測定も標準装備。",
-    image:
-      "/images/yew-HP_03service_digital.png",
-    features: ["大型LEDサイネージ", "リアルタイム配信対応", "効果測定レポート"],
+    subtitle: "街の中心に強烈な違和感を。",
+    description: `都心のランドマークで、ブランドの存在感を一気に引き上げる大型デジタルサイネージ。ダイナミックな映像表現とリアルタイム配信を掛け合わせることで、その瞬間、その場所でしか生まれない強い違和感と没入感を創出します。`,
+    image: "/images/yew-HP_03service_digital.png",
   },
 ];
 
@@ -80,19 +71,11 @@ export default function Services() {
                 <p className="font-mincho text-white/60 text-lg mb-8 border-l-2 border-white/60 pl-4">
                   {service.subtitle}
                 </p>
-                <p className="font-mincho text-white/70 text-base leading-loose mb-8">
+
+                {/* whitespace-pre-line により、上記 description 内の改行がそのまま美しく反映されます */}
+                <p className="font-mincho text-white/70 text-base leading-loose mb-8 whitespace-pre-line">
                   {service.description}
                 </p>
-                <ul className="space-y-3 mb-10">
-                  {service.features.map((feature) => (
-                    <li key={feature} className="flex items-center gap-3">
-                      <i className="ri-checkbox-blank-circle-fill text-white/60 text-[8px] w-2 h-2 flex items-center justify-center"></i>
-                      <span className="font-mincho text-white/80 text-sm tracking-wide">
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           ))}
